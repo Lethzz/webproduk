@@ -1,28 +1,26 @@
 /* Custom style.css */
 
-body {
-    font-family: 'Arial', sans-serif;
-}
-
+/* Hero Section Styling */
 .hero {
     background: url('../images/hero.jpg') no-repeat center center/cover;
-}
-
-.card {
-    border: none;
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-footer {
-    background-color: #333;
+    height: 100vh; /* Menentukan tinggi hero section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: white;
-    padding: 20px;
 }
 
-#formMessage {
-    font-size: 1.1rem;
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.hero .btn {
+    margin-top: 2rem;
 }
