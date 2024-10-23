@@ -1,0 +1,28 @@
+/* Custom style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#formMessage {
+    font-size: 1.1rem;
+}
