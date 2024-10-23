@@ -13,6 +13,7 @@
 
 .card {
     border: none;
+    filter: drop-shadow(0 0 0.75rem orange);
     transition: transform 0.3s ease;
 }
 
